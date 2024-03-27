@@ -1,3 +1,6 @@
-# 3D Developer Portfolio using React + Three.JS + TailwindCSS
+# 3D Developer Portfolio
+
+
+Utlized stacks: React, Three.JS, TailwindCSS, Framer Motion
 
 
