@@ -19,6 +19,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  csharp
 } from "../assets";
 
 export const navLinks = [
@@ -42,7 +43,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Electrical Engineer",
+    title: "QA/Automation",
     icon: mobile,
   },
   {
@@ -56,6 +57,10 @@ const services = [
 ];
 
 const technologies = [
+  {
+    name: "C#",
+    icon: csharp,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -81,10 +86,6 @@ const technologies = [
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
   },
@@ -104,10 +105,6 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
@@ -118,10 +115,11 @@ const experiences = [
     iconBg: "#000000",
     date: "Jan 2024 - Present",
     points: [
-      "Optimized the email notification query using SQL, enabling the option for users to select between business and personal email preferences, while also implementing an opt-out feature, thereby enhancing the flexibility and customization",
-      "Utilizing a microfrontend architecture using React and TypeScript for the frontend development, while employing C# for both backend monolith and microservice code, ensuring a robust and scalable system",
-      "Collaborating with a cross-functional team of developers, QAs, PMs, and designers to design and develop new UI features and backend enhancements while addressing bugs within the Dayforce application",
-      "Leveraged Knowledge in Microservices, React, TypeScript, C#, GitHub, Playwright, SQL Server, Jira, Azure DevOps"
+      "Led and managed comprehensive redesign initiative for approximately 40% of Career Profile section’s user interface within the Dayforce application, overseeing all aspects of the modernization process to enhance visual appeal and user experience",
+      "Designed key pages and optimized backend queries and enhancements for the Career Explorer Mentorship project, enabling users to connect with peer mentors of higher proficiency in shared skills for enhanced learning and knowledge sharing",
+      "Increased unit test coverage for the Career Explorer project by 80% improving overall code quality and reliability, while utilizing SonarQube to ensure continuous code analysis, adherence to coding standards, and reduction of technical debt",
+      "Automated 50% of controller and UI test cases using BDD and TDD principles in multiple projects, while collaborating with QA teams to write, refine, and optimize test cases, ensuring comprehensive coverage and improved clarity in test execution",
+      "Leveraged Knowledge in React, TypeScript, C#, Microservices, SQL Server, Jest, Playwright, Cypress, Jira, GitHub, SonarQube"
     ],
   },
   {
@@ -158,47 +156,20 @@ const experiences = [
     iconBg: "#000000",
     date: "Sep 2022 - Dec 2022",
     points: [
-      "Automated 80% of test cases using Selenium and Java Rest Assured frameworks, increasing efficiency, and reducing manual effort",
-      "Created, executed, and documented comprehensive test cases with precision using Test Management tools such as Jira/JTMF",
-      "Conducted API testing utilizing tools like Postman and SOATest to validate endpoint responses and ensure seamless integration",
+      "Automated 80% of test cases, utilizing Selenium WebDriver for UI testing and Java Rest Assured for API testing, which significantly improved test efficiency, reduced manual effort, and enhanced overall test coverage",
+      "Created, executed and documented detailed test cases in Jira and JTMF, ensuring effective tracking and execution",
+      "Performed manual API testing with Postman and SOATest to validate endpoint responses and ensure seamless integration",
       "Implemented automated test execution through continuous integration platforms like Jenkins, BitBucket, and Git, streamlining the testing process and enabling faster feedback loops",
-      "Leveraged Knowledge in Jira/JTMF, Java, Rest Assured, Postman, Selenium, SOATest, Jenkins, BitBucket, Cucumber"
+      "Leveraged Knowledge in Jira, Java, RestAssured, Postman, Selenium WebDriver, BDD, Jenkins, Bitbucket, Cucumber"
     ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Name 1",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Description 1",
     tags: [
       {
         name: "react",
@@ -216,48 +187,6 @@ const projects = [
     image: carrent,
     source_code_link: "https://github.com/",
   },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

@@ -47,12 +47,25 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        As a skilled developer well-versed in TypeScript and specialized in
-        frameworks such as React, .NET, and Three.js, I bring a wealth of
-        experience to the table. My ability to swiftly grasp new concepts
-        coupled with my dedication to collaborating closely with clients enables
-        me to craft effective, scalable, and intuitive solutions tailored to
-        address real-world challenges.
+        I am a Full-Stack Developer with a strong foundation in frontend, backend, and QA automation. Currently, I work in full-stack development while integrating quality engineering best practices to enhance software reliability.
+      </motion.p>
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+      >
+        My expertise spans React, .NET, Spring Boot, and Node.js for building scalable applications, while leveraging SQL Server, MongoDB, PostgreSQL, and MySQL for efficient data management. I have hands-on experience with microservices architecture, cloud platforms (AWS, Azure), and DevOps tools like Jenkins, CI/CD, and SonarQube to ensure smooth deployments and performance optimization.
+      </motion.p>
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+      >
+        Beyond development, I bring a solid background in test automation and quality assurance, using frameworks such as Playwright, Cypress, Selenium WebDriver, Cucumber, and RestAssured to automate test cases and improve software reliability. I have experience working in Agile, Scrum, and Kanban environments and thrive in collaborative, high-impact teams.
+      </motion.p>
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+      >
+        I am always eager to learn new technologies, solve complex problems, and build high-quality software solutions that drive innovation and efficiency.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
