@@ -109,30 +109,32 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Developer Intern",
-    company_name: "Dayforce",
+    title: "Junior App Developer",
+    company_name: "Method CRM",
     icon: web,
     iconBg: "#000000",
-    date: "Jan 2024 - Present",
+    date: "Jul 2025 - Present",
     points: [
-      "Led and managed comprehensive redesign initiative for approximately 40% of Career Profile section’s user interface within the Dayforce application, overseeing all aspects of the modernization process to enhance visual appeal and user experience",
-      "Designed key pages and optimized backend queries and enhancements for the Career Explorer Mentorship project, enabling users to connect with peer mentors of higher proficiency in shared skills for enhanced learning and knowledge sharing",
-      "Increased unit test coverage for the Career Explorer project by 80% improving overall code quality and reliability, while utilizing SonarQube to ensure continuous code analysis, adherence to coding standards, and reduction of technical debt",
-      "Automated 50% of controller and UI test cases using BDD and TDD principles in multiple projects, while collaborating with QA teams to write, refine, and optimize test cases, ensuring comprehensive coverage and improved clarity in test execution",
-      "Leveraged Knowledge in React, TypeScript, C#, Microservices, SQL Server, Jest, Playwright, Cypress, Jira, GitHub, SonarQube"
+      "Implemented a real-time Timeline component in the CRM’s App Ribbon using an Event-Driven Architecture (EDA) integrated with Change Data Capture (CDC) events, enabling dynamic contact activity updates without backend polling",
+      "Developed dynamic Health Score feature updated via a SQL cron job across 6,000+ accounts, visualizing historical trends and category-level insights to help users identify engagement, financial, sales, and support factors driving contact performance",
+      "Enhanced platform extensibility by optimizing API compression using Base64 encoding with validation and fallback logic, refining no-code app templates, and supporting customers with tailored business solutions aligned with operational needs",
+      "Managed end-to-end CRM operations including log monitoring with Logstash, Kibana, and Datadog, database migrations (ETL), Playwright test automation, and release management, while debugging RabbitMQ queues to ensure stable and reliable deployments",
+      "Optimized SQL Server queries, stored procedures, and data models to improve reporting, reduce query execution times",
+      "Leveraged Knowledge in React, JavaScript, C#, ASP.NET, Kafka, AWS, SQL Server, MongoDB, Elasticsearch, Redis, Kibana, Logstash, Datadog, Grafana, RabbitMQ, TFS, Jest, Playwright, Microservices, Node, Bash, PowerShell, Jira, GitHub",
     ],
   },
   {
     title: "Software Developer Intern",
-    company_name: "Ceridian",
+    company_name: "Dayforce",
     icon: mobile,
     iconBg: "#000000",
-    date: "Jan 2023 - Aug 2023",
+    date: "Jan 2023 - Apr 2025",
     points: [
-      "Developed and implemented Community Insights’ backend logic under Career Explorer, showcasing peers with growth career plans, active development plans and skill enhancement plans, leveraging development plans microservice and a MongoDB cluster",
-      "Integrated the Job Insights section within the Opportunity Details page, seamlessly showcasing Community Insights, pay grade data, hiring manager details, and salary information to provide users with a comprehensive and enriched job search experience",
-      "Enhanced stack tracing in microservice code by leveraging .NET's versatile logging API, enabling seamless integration with an extensive array of native and third-party logging providers",
-      "Leveraged Knowledge in React, TypeScript, Microservices, C#, SQL Server, MongoDB, Azure DevOps, PowerShell, Cypress",
+      "Spearheaded a large-scale redesign initiative covering nearly 40% of the Career Profile user interface, modernizing outdated components, refining navigation flows, and significantly enhancing usability, accessibility, and user satisfaction",
+      "Designed, implemented, and optimized backend queries along with microservice-level enhancements for mentorship and career insights features, enabling seamless peer-to-peer connections, enriched access to job data, and improved responsiveness",
+      "Increased unit test coverage by 80% through structured BDD/TDD adoption, while collaborating closely with QA teams to automate over half of controller and UI test cases, reducing regression risks and manual testing overhead",
+      "Enhanced observability, scalability, and fault tolerance in distributed microservices by integrating .NET’s logging API with multiple third-party providers, ensuring proactive system monitoring, seamless debugging, and faster resolution of production issues",
+      "Leveraged Knowledge in React, TypeScript, C#, .NET Core, Microservices, SQL Server, Jest, Playwright, Cypress, Jira, GitHub",
     ],
   },
   {
